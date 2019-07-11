@@ -23,23 +23,36 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 150%;
+  line-height: 2;
 }
 
 h1 {
   margin: 50px auto 0px auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
-
+a {
+  color: #11999E;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .pro {
   text-decoration: underline;
 }
@@ -58,11 +71,14 @@ h3 {
 
 .web-icon {
   height: 200px;
-  width: 200px;
-  border-radius: 10% 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .lang-icon {
   height: 200px;
-  width: 200px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
